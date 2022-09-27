@@ -53,9 +53,6 @@ export default class App extends Component {
                 contacts: newContacts
             }
         })
-     this.setState({
-          filter: '',
-     })
     }
 
     handleChange = (evt) => {
